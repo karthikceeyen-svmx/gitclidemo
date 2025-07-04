@@ -2,7 +2,7 @@
   "name": "Default Group Profile",
   "isActive": true,
   "developerName": "Default Group Profile",
-  "description": "For admins",
+  "description": "This is the default Group configuration profile automatically loaded when ServiceMax is installed. This is a group-wide profile that contains default values for all the group/user level parameters of ServiceMax application. In order to configure ServiceMax for your organization, clone this profile using a name you can easily identify and modify the cloned profile.",
   "profileName": "Default Group Profile",
   "modules": [],
   "mobilePermissions": [],
