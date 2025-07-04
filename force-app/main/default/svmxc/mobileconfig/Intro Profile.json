@@ -1,0 +1,342 @@
+{
+  "name": "Intro Profile",
+  "isActive": true,
+  "developerName": "Intro Profile",
+  "description": "Simplified Basic View for SVMX",
+  "profileName": "Intro Profile",
+  "modules": [],
+  "mobilePermissions": [],
+  "mobileConfigurations": [
+    {
+      "name": "Default",
+      "mobileConfigurationDetails": [
+        {
+          "ownershipType": "My Records",
+          "internalValue": "180",
+          "fieldType": "Frequency of Master Data"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "360",
+          "fieldType": "Frequency of Application Changes"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "180",
+          "fieldType": "Synchronization To Get Events"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "180",
+          "fieldType": "Synchronization To Remove Events"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "ServiceMax online data",
+          "fieldType": "Conflict Resolution"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "10",
+          "fieldType": "Chatter Threads"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "50",
+          "fieldType": "Download Limit For KB"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "10",
+          "fieldType": "Location Tracking Frequency"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "true",
+          "fieldType": "Enable Location Tracking"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "100",
+          "fieldType": "Location History Records to cache"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "true",
+          "fieldType": "Enable Checklist"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "true",
+          "fieldType": "Completed Checklists"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "true",
+          "fieldType": "InProgress Checklists"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Set Technician Location"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "168000",
+          "fieldType": "PURGE_FREQ"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "20",
+          "fieldType": "PURGE_REC_OLDER_THAN"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "2023-11-20 17:00:00",
+          "fieldType": "CONFIG_LAST_MOD"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Allow API Access"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "true",
+          "fieldType": "Enable Logging"
+        },
+        {
+          "ownershipType": "My Records",
+          "fieldType": "Enable Usage Logging"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "never",
+          "fieldType": "Usage Logging User Option"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Enable Performance Profiling"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Enable SOQL Profiling"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "Production",
+          "fieldType": "Performance Profiling Org Type"
+        },
+        {
+          "ownershipType": "My Records",
+          "fieldType": "Performance Profiling Endpoint Url"
+        },
+        {
+          "ownershipType": "My Records",
+          "objectName": "Files",
+          "filesConfig": "{\"maxFileSize\":\"\",\"isFilesEnabled\":false,\"fileTypes\":\"\",\"fileTags\":\"\"}",
+          "fieldType": "Advanced Download Criteria"
+        },
+        {
+          "sequence": "1.0000",
+          "processName": "WO Download to Mobile & Logged In Tech User",
+          "processId": "WO_Download_To_Mobile",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Service_Order__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "2.0000",
+          "processName": "Locations",
+          "processId": "Locations",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Site__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "3.0000",
+          "processName": "All Product Stock",
+          "processId": "AllProductStocks",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Product_Stock__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "4.0000",
+          "processName": "All_Stocked_Serial",
+          "processId": "All_Stocked_Serial",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Product_Serial__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "1.0000",
+          "processName": "svmxtesta",
+          "processId": "svmxtesta",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Site__c",
+          "fieldType": "Advanced Download Criteria"
+        }
+      ],
+      "isDefault": true,
+      "deviceType": "iPad;Android Tablet;Android Phone;Windows",
+      "description": "Default"
+    },
+    {
+      "name": "TestCLI",
+      "mobileConfigurationDetails": [
+        {
+          "ownershipType": "My Records",
+          "internalValue": "10",
+          "fieldType": "Frequency of Master Data"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "10",
+          "fieldType": "Frequency of Application Changes"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "10",
+          "fieldType": "Synchronization To Get Events"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "10",
+          "fieldType": "Synchronization To Remove Events"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "ServiceMax online data",
+          "fieldType": "Conflict Resolution"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "10",
+          "fieldType": "Chatter Threads"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "5",
+          "fieldType": "Download Limit For KB"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "10",
+          "fieldType": "Location Tracking Frequency"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Enable Location Tracking"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "10",
+          "fieldType": "Location History Records to cache"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Enable Checklist"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Completed Checklists"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "InProgress Checklists"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Set Technician Location"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "10",
+          "fieldType": "PURGE_FREQ"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "10",
+          "fieldType": "PURGE_REC_OLDER_THAN"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "2025-06-03 14:07:44",
+          "fieldType": "CONFIG_LAST_MOD"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Allow API Access"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Enable Logging"
+        },
+        {
+          "ownershipType": "My Records",
+          "fieldType": "Enable Usage Logging"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "never",
+          "fieldType": "Usage Logging User Option"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Enable Performance Profiling"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Enable SOQL Profiling"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "Production",
+          "fieldType": "Performance Profiling Org Type"
+        },
+        {
+          "ownershipType": "My Records",
+          "fieldType": "Performance Profiling Endpoint Url"
+        },
+        {
+          "ownershipType": "My Records",
+          "objectName": "Files",
+          "filesConfig": "{\"maxFileSize\":\"\",\"isFilesEnabled\":false,\"fileTypes\":\"\",\"fileTags\":\"\"}",
+          "fieldType": "Advanced Download Criteria"
+        },
+        {
+          "sequence": "1.0000",
+          "processName": "Accounts",
+          "processId": "Accounts",
+          "ownershipType": "My Records",
+          "objectName": "Account",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "1.0000",
+          "processName": "TestCLIADCexp",
+          "processId": "TestCLIADCexp",
+          "ownershipType": "My Records",
+          "objectName": "SVMXC__Service_Order__c",
+          "fieldType": "Advanced Download Criteria"
+        }
+      ],
+      "isDefault": false,
+      "deviceType": "iPhone",
+      "description": "To test mobile configuration in CLI test"
+    }
+  ],
+  "configType": "Group"
+}

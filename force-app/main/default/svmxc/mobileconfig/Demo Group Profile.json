@@ -1,0 +1,333 @@
+{
+  "name": "Demo Group Profile",
+  "isActive": true,
+  "developerName": "Demo Group Profile",
+  "description": "2018 - Main Group Profile\r\n2016 - without Cases",
+  "profileName": "Demo Group Profile",
+  "modules": [],
+  "mobilePermissions": [],
+  "mobileConfigurations": [
+    {
+      "name": "Default",
+      "mobileConfigurationDetails": [
+        {
+          "ownershipType": "My Records",
+          "internalValue": "180",
+          "fieldType": "Frequency of Master Data"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "360",
+          "fieldType": "Frequency of Application Changes"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "180",
+          "fieldType": "Synchronization To Get Events"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "180",
+          "fieldType": "Synchronization To Remove Events"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "Mobile device data",
+          "fieldType": "Conflict Resolution"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "10",
+          "fieldType": "Chatter Threads"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "50",
+          "fieldType": "Download Limit For KB"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "1",
+          "fieldType": "Location Tracking Frequency"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "true",
+          "fieldType": "Enable Location Tracking"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "100",
+          "fieldType": "Location History Records to cache"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "true",
+          "fieldType": "Enable Checklist"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "true",
+          "fieldType": "Completed Checklists"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "true",
+          "fieldType": "InProgress Checklists"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Set Technician Location"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "168000",
+          "fieldType": "PURGE_FREQ"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "20",
+          "fieldType": "PURGE_REC_OLDER_THAN"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "2024-11-13 08:27:02",
+          "fieldType": "CONFIG_LAST_MOD"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Allow API Access"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "true",
+          "fieldType": "Enable Logging"
+        },
+        {
+          "ownershipType": "My Records",
+          "fieldType": "Enable Usage Logging"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "never",
+          "fieldType": "Usage Logging User Option"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Enable Performance Profiling"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Enable SOQL Profiling"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "Production",
+          "fieldType": "Performance Profiling Org Type"
+        },
+        {
+          "ownershipType": "My Records",
+          "fieldType": "Performance Profiling Endpoint Url"
+        },
+        {
+          "ownershipType": "My Records",
+          "objectName": "Files",
+          "filesConfig": "{\"maxFileSize\":\"10\",\"isFilesEnabled\":true,\"fileTypes\":\"\",\"fileTags\":\"Logo, SFM_OUTPUT_DOCUMENT, 00139990\"}",
+          "fieldType": "Advanced Download Criteria"
+        },
+        {
+          "sequence": "1.0000",
+          "processName": "Locations",
+          "processId": "Locations",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Site__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "2.0000",
+          "processName": "WO Download to Mobile & Logged In Tech User",
+          "processId": "WO_Download_To_Mobile",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Service_Order__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "3.0000",
+          "processName": "IP Download to Mobile",
+          "processId": "IP_DownloadToMobile",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Installed_Product__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "4.0000",
+          "processName": "Contacts",
+          "processId": "Contacts",
+          "ownershipType": "All Records",
+          "objectName": "Contact",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "5.0000",
+          "processName": "Accounts",
+          "processId": "Accounts",
+          "ownershipType": "All Records",
+          "objectName": "Account",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "6.0000",
+          "ownershipType": "All Records",
+          "objectName": "Product2",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "7.0000",
+          "processName": "Technicians",
+          "processId": "Technicians",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Service_Group_Members__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "8.0000",
+          "processName": "All Product Stock",
+          "processId": "AllProductStocks",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Product_Stock__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "9.0000",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Quote__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "10.0000",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Product_Serial__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "11.0000",
+          "processName": "All Expertise",
+          "processId": "AllExpertise",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Service_Group_Skills__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "12.0000",
+          "processName": "SVMXSTD: Open RMA",
+          "processId": "EXPR010",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__RMA_Shipment_Order__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "13.0000",
+          "processName": "WO Download to Mobile & Logged In as Assigned",
+          "processId": "WO_Download_to_Mobile_Logged_In_As_Tech",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Service_Order_Line__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "14.0000",
+          "ownershipType": "All Records",
+          "objectName": "Pricebook2",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "15.0000",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Service_Pricebook__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "16.0000",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Service_Pricebook_Entry__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "17.0000",
+          "processName": "Open IB Notifications",
+          "processId": "Open IB Notifications",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__SM_IB_Notification__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "18.0000",
+          "ownershipType": "All Records",
+          "objectName": "Case",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "19.0000",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Timesheet_Day_Entry__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "1.0000",
+          "processName": "Matching Account/WorkOrder",
+          "processId": "Matching_Account_WO",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Service_Contract__c",
+          "fieldType": "Advanced Download Criteria"
+        },
+        {
+          "sequence": "2.0000",
+          "processName": "Matching Account/Plan",
+          "processId": "MatchingAccountPlan",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__PM_Plan__c",
+          "fieldType": "Advanced Download Criteria"
+        },
+        {
+          "sequence": "3.0000",
+          "processName": "Matching Service Contract",
+          "processId": "Matching Service Contract",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Service_Contract_Products__c",
+          "fieldType": "Advanced Download Criteria"
+        },
+        {
+          "sequence": "4.0000",
+          "processName": "Matching Service Contract Location",
+          "processId": "Matching Service Contract Location",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Service_Contract_Sites__c",
+          "fieldType": "Advanced Download Criteria"
+        },
+        {
+          "sequence": "5.0000",
+          "processName": "Matching Included Service",
+          "processId": "Matching Included Service",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Service_Contract_Services__c",
+          "fieldType": "Advanced Download Criteria"
+        },
+        {
+          "sequence": "6.0000",
+          "processName": "Matching Labor Pricing",
+          "processId": "Matching Labor Pricing",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Labor_Pricing__c",
+          "fieldType": "Advanced Download Criteria"
+        }
+      ],
+      "isDefault": true,
+      "deviceType": "iPad;iPhone;Android Tablet;Android Phone;Windows",
+      "description": "Default"
+    }
+  ],
+  "configType": "Group"
+}

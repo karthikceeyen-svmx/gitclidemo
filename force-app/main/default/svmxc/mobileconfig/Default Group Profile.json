@@ -1,0 +1,160 @@
+{
+  "name": "Default Group Profile",
+  "isActive": true,
+  "developerName": "Default Group Profile",
+  "description": "This is the default Group configuration profile automatically loaded when ServiceMax is installed. This is a group-wide profile that contains default values for all the group/user level parameters of ServiceMax application. In order to configure ServiceMax for your organization, clone this profile using a name you can easily identify and modify the cloned profile.",
+  "profileName": "Default Group Profile",
+  "modules": [],
+  "mobilePermissions": [],
+  "mobileConfigurations": [
+    {
+      "name": "Default",
+      "mobileConfigurationDetails": [
+        {
+          "sequence": "1.0000",
+          "ownershipType": "All Records",
+          "objectName": "Account"
+        },
+        {
+          "sequence": "2.0000",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Service_Order__c"
+        },
+        {
+          "sequence": "3.0000",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Installed_Product__c"
+        },
+        {
+          "sequence": "4.0000",
+          "ownershipType": "All Records",
+          "objectName": "Product2"
+        },
+        {
+          "sequence": "5.0000",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Service_Order_Line__c"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "30",
+          "fieldType": "Dataset Synchronization"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "600",
+          "fieldType": "Frequency of Master Data"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "1200",
+          "fieldType": "Frequency of Application Changes"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "10",
+          "fieldType": "Synchronization To Get Events"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "10",
+          "fieldType": "Synchronization To Remove Events"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "ServiceMax online data",
+          "fieldType": "Conflict Resolution"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "10",
+          "fieldType": "Chatter Threads"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "50",
+          "fieldType": "Download Limit For KB"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "10",
+          "fieldType": "Location Tracking Frequency"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "true",
+          "fieldType": "Enable Location Tracking"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "100",
+          "fieldType": "Location History Records to cache"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "true",
+          "fieldType": "Set Technician Location"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "168",
+          "fieldType": "PURGE_FREQ"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "10",
+          "fieldType": "PURGE_REC_OLDER_THAN"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "2015-10-12 16:46:25",
+          "fieldType": "CONFIG_LAST_MOD"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Allow API Access"
+        },
+        {
+          "ownershipType": "My Records",
+          "internalValue": "false",
+          "fieldType": "Enable Logging"
+        },
+        {
+          "sequence": "6.0000",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Service_Contract__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "8.0000",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Service_Contract_Sites__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "7.0000",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Service_Contract_Products__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "9.0000",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Service_Contract_Services__c",
+          "fieldType": "Download Criteria"
+        },
+        {
+          "sequence": "10.0000",
+          "ownershipType": "All Records",
+          "objectName": "SVMXC__Labor_Pricing__c",
+          "fieldType": "Download Criteria"
+        }
+      ],
+      "isDefault": true,
+      "deviceType": "iPad;iPhone;Android Tablet;Android Phone;Windows",
+      "description": "Default"
+    }
+  ],
+  "configType": "Group"
+}
